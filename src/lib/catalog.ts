@@ -420,7 +420,147 @@ export const CATALOG: Book[] = [
           "Keep a two-column note for a week: influence you were glad of, and influence you resented.",
       },
     ],
-  }
+  },
+  {
+    id: "east-of-eden",
+    title: "East of Eden",
+    author: "John Steinbeck",
+    year: 1952,
+    subtitle: "Thou mayest, the inherited story, and the choice after the wound.",
+    seed: true,
+    concepts: [
+      {
+        id: "timshel",
+        number: 1,
+        title: "Thou Mayest",
+        summary: "The hinge word is permission: you may choose, not you must, and not you will.",
+        scan: "The load-bearing word is permission. You may choose. Not you must, and not you will.",
+        study:
+          "A family can hand you a script that feels like weather: blood, a parent's favor, a reputation already in the room. The counter-claim is a small Hebrew hinge — thou mayest — which is neither commandment nor prophecy. Command says the good is an order you obey or fail. Prophecy says the path is already decided. Permission says the next act is still available, including after a wound you did not pick. Example: you can spend a decade proving you were the rejected child, or you can spend a Tuesday telling the truth and doing one decent thing the script did not budget for. The second is smaller. It is also the only one that counts as a choice.",
+        master:
+          "People hear thou mayest as a pep talk and miss the cost. Permission is not a mood, and it is not a guarantee that the people who wounded you will recast you. Edge cases: some inheritances are real constraints (illness, a locked door, another person's will); mayest does not mean you can have any outcome, only that you are not excused from the next right act. Another: the slogan can become a way to blame people who are drowning. Application: name one thing you have been treating as fate — a temper, a role, a family verdict. Write the version of this week that would count as choosing anyway. Do that version once, without announcing a new self. The word is a tool. It rusts if you only quote it.",
+        moveHint:
+          "Name one act you have been treating as fate, and do the smallest version this week that would still count as a choice.",
+      },
+      {
+        id: "inheritance",
+        number: 2,
+        title: "Inheritance Is Not a Verdict",
+        summary: "Blood, story, and temperament arrive uninvited; they are material, not a sentence.",
+        scan: "What you inherit — face, temper, a family tale — arrives before you do. It is material. It is not a verdict.",
+        study:
+          "A child is born into a story already in motion: whose son, which brother, what the town thinks the bloodline is for. The mechanism is confusion of origin with ending. Origin explains a pressure; it does not finish a person. Example: a household that treats one child's gifts as proof of goodness and the other's as proof of stain will get the performances it paid for. The inherited script is cheap to run and expensive to keep. You are allowed to use the material without signing the sentence.",
+        master:
+          "Denying inheritance is a different trap — pretending you have no temper, no history, no face in the family album. The work is to name the material accurately and still refuse the verdict. Edge cases: some patterns are medical or legal, not merely narrative; do not therapy-talk your way out of a real constraint. Some people use inheritance as cover for a choice they are making this afternoon. Application: write two columns — what arrived without my consent, what I am still choosing. Act only on the second this week. Recite the first once so it stops impersonating destiny. If a column is empty, you have not looked yet.",
+        moveHint:
+          "Write two columns — arrived without consent / still mine to choose — and act only on the second this week.",
+      },
+      {
+        id: "brothers",
+        number: 3,
+        title: "The Two Gifts",
+        summary: "The favored and the unfavored replay; comparison is the first wound.",
+        scan: "Wherever two children compete for one love, an old story restarts: a gift accepted, a gift refused, a wound that looks like character.",
+        study:
+          "The pattern is older than any one family. One offering is received; the other is overlooked; the overlooked person then has to decide whether to become better or to become dangerous. The mechanism is not mystery — it is scarce attention. A parent's eyes are a currency. Example: two siblings, one easy to praise, one harder to read. The easy one becomes good by being seen; the hard one becomes a problem by being unseen. You cannot fix the old offering. You can stop using comparison as a moral science.",
+        master:
+          "This is not a brief for spoiling everyone equally. People are not interchangeable, and love that cannot tell children apart is another kind of neglect. Edge cases: the 'rejected' role can become a career; some favored children are crushed by being the good one. Application: if you are in a two-gift story — as parent, sibling, or the one still auditioning — stop arguing about who deserved the love. Name the comparison you run. For one week, refuse to use it as evidence about anyone's soul. Measure the next act, not the ranking. Rankings are how the wound stays employed.",
+        moveHint:
+          "Name the comparison you run (favored / unfavored) and refuse to use it as evidence about anyone's soul this week.",
+      },
+      {
+        id: "withheld-love",
+        number: 4,
+        title: "Love That Picks One Child",
+        summary: "Unequal love trains hunger in one and blindness in the other.",
+        scan: "A love that can only land on one child trains hunger in the other, and a dangerous innocence in the chosen.",
+        study:
+          "Preferential love is not a preference for a hobby; it is a climate. The chosen child learns that being seen is the same as being good. The unchosen learns that effort is a petition that may never be stamped. Both educations leak into later rooms — marriages, shops, the way a person enters a kitchen. Example: a father who lights up for one face and goes dim for the other is not hiding a secret. He is teaching a syllabus. The unchosen will spend years trying to become the face that works. That project has no graduation.",
+        master:
+          "You cannot retroactively equalize a childhood. You can stop impersonating the parent who withheld, including toward yourself. Edge cases: some children are genuinely easier to love in a given season (illness, temperament); the vice is making that ease into a moral ranking. Adults who were unchosen often pick partners who will reenact the dimming, because it feels like home. Application: notice whom you brighten for and whom you go dim on — a child, a colleague, a friend. For seven days, give the dimmed one one unit of unearned, specific attention. Not a speech. A look, a question, a seat. If you were the dimmed one, give that unit to yourself on paper: one thing you did that did not require an audience.",
+        moveHint:
+          "Give one unit of specific, unearned attention this week to someone you usually go dim on — including yourself, on paper.",
+      },
+      {
+        id: "naming",
+        number: 5,
+        title: "What We Call a Person",
+        summary: "Names and roles become tracks; a careless label is a future tense.",
+        scan: "What you call a person — son, monster, good one, lost cause — becomes a track they then have to walk, or waste a life resisting.",
+        study:
+          "A name is not only a sound. It is a job description handed to a nervous system. Families name children into parts; towns name families into myths; we name ourselves into corners. The mechanism is expectancy: people become easier to see in the shape you already drew. Example: call a child the difficult one long enough and you will get difficulty on schedule, then cite the schedule as proof. Renaming is not magic. It is a refusal to keep pouring concrete.",
+        master:
+          "True names matter too — some labels are accurate (thief, after the theft). The work is not universal rebranding. It is refusing a label that pretends to be a soul. Edge cases: a person may need a hard name for a hard act; withholding it is sentiment. A person may also be trapped in a childhood nickname that no longer fits. Application: write the name you use in your head for someone you resent, including yourself. Replace it for a week with a name that includes one true act they could still do. Speak to that. If the old name was earned by a crime, keep the crime on the record. Drop only the forever.",
+        moveHint:
+          "Replace one private label (including your own) with a name that still allows a next true act, and use only that name for a week.",
+      },
+      {
+        id: "monster",
+        number: 6,
+        title: "The Person We Call Irredeemable",
+        summary: "Calling someone a monster can be a fact about harm, or a way to stop looking.",
+        scan: "Some people do terrible things. Calling them a monster can name the harm — or it can be a way to stop looking, including at yourself.",
+        study:
+          "There is a temptation to put all the darkness in one body so the rest of the family can stay clean. The mechanism is convenience: a villain simplifies the ledger. Example: if one person is evil by nature, then no one else has to examine the withheld love, the lie, the profit. Sometimes the harm is real and the person is dangerous. Sometimes the word monster is how a household refuses its own part. You need both eyes. One eye for the harm. One for the alibi.",
+        master:
+          "This is not a brief for hugging wolves. Some people will not choose, and you are allowed to leave, lock a door, and tell the truth to a child. Edge cases: the irredeemable label, applied to yourself after a shame, becomes a permission to stop trying; applied to an enemy, it becomes a permission to stop being just. Application: pick one person you have filed as beyond the human (it may be you). Write two sentences: the harm that is true, and the choice that remains available to someone — you, a witness, a court, a distance. Do the smallest act that honors both sentences. If the only remaining choice is to get out, that is still a choice. It is not a failure of charity.",
+        moveHint:
+          "For one person you have filed as beyond the human, write the true harm and the choice that remains — then do the smallest act that honors both.",
+      },
+      {
+        id: "witness",
+        number: 7,
+        title: "A Witness Who Sees Straight",
+        summary: "One clear-seeing person can interrupt a family's trance by telling the true story.",
+        scan: "A family in a trance needs one person who will not decorate the lie. Clear seeing is a form of love that does not require being blood.",
+        study:
+          "Trances are cheap to maintain: a myth about who is good, a silence about who was hurt, a clever servant of the story. A witness — a neighbor, a cook, a friend who can hold a word until it means what it means — breaks the trance by description, not by sermon. Example: someone who will say you are favoring one child, or that word does not mean what you hope, or that woman is not a puzzle you can marry into safety. The gift is not comfort. It is a map that matches the ground.",
+        master:
+          "Witnesses can be wrong, and they can enjoy their clarity too much. The test is whether their seeing leaves you more able to choose, or only more ashamed. Edge cases: a witness who is actually a gossip; a family that treats any outside eye as betrayal. Application: be the witness once this week in a room you actually inhabit — one true sentence, timed, without a speech. Or, if you are inside the trance, ask one person who is not on the payroll of your myth: what do you see that I am decorating? Write the answer down. Do not argue it into fog the same day.",
+        moveHint:
+          "Speak one true, unadorned sentence in a room you inhabit — or ask a person outside your myth what they see, and write it down.",
+      },
+      {
+        id: "valley",
+        number: 8,
+        title: "Place as Pressure",
+        summary: "Land, town, and weather are not backdrop; they press on what a person can easily become.",
+        scan: "A valley is not scenery. Place presses on appetite, class, and the stories a person can afford to tell.",
+        study:
+          "People like to think character is portable. It is partly a local product: soil, money, who lives next door, what the town rewards. The mechanism is pressure, not fate — the same soul in a different climate would have different easy sins. Example: a dry year, a new railroad, a respectable street versus a back-room economy. None of these write a moral ending. All of them change the friction. You do not rise above geography by ignoring it. You read the pressure, then choose inside it.",
+        master:
+          "Geographic excuse is the failure mode: the town made me. The opposite failure is spiritual tourism — pretending you could have been good anywhere while staying in the room that makes your vice cheap. Edge cases: you cannot always leave; then you change a micro-climate (a table, a job, a friend) rather than a county. Application: name the place-pressure on your worst habit this month — the street, the feed, the kitchen, the people who laugh when you are small. Change one friction in that place. Do not write a manifesto about who you are. Move a chair, a route, a standing invitation. Geography is cheaper than a new personality.",
+        moveHint:
+          "Name the place that makes your worst habit cheap, and change one friction there this week — a chair, a route, an invitation.",
+      },
+      {
+        id: "chosen",
+        number: 9,
+        title: "The Hunger to Be Chosen",
+        summary: "The unfavored child's project is to win a love that was never equally offered.",
+        scan: "The unchosen spend years trying to become the face that works. That project has no graduation. The adult work is to stop auditioning.",
+        study:
+          "Hunger to be chosen feels like love but behaves like a job interview that never ends. The mechanism is a hope that if the performance is finally perfect, the dim parent (or their stand-in) will light up. Example: overwork, a gift that is really a plea, cruelty aimed at the rival who got the warmth for free. None of these collect the missing vote. They collect a life spent at the door. You can want to be loved. You cannot extract a childhood from a person who will not give it.",
+        master:
+          "Stopping the audition is not becoming unlovable. It is moving the petition to people and work that can actually answer. Edge cases: some love is still available if you ask plainly once; martyrdom ('I need nothing') is the hunger in costume. Another: you may have children now, and their hunger is not a chance to win your old case. Application: write the audition you are still running — for whom, with what performance. Cancel one performance this week. Put the energy into a room where you are already, boringly, wanted, or into a craft that does not require a favorite. If no such room exists, build a small one: one person, one hour, no proving.",
+        moveHint:
+          "Name the audition you are still running and cancel one performance this week; spend that hour where you do not have to prove you are the favorite.",
+      },
+      {
+        id: "confession",
+        number: 10,
+        title: "Telling the True Story",
+        summary: "The first free act is often speech: what you did, what was done, what you will do next.",
+        scan: "Choice begins when the true story is spoken — not the decorated one, and not the one that keeps a parent comfortable.",
+        study:
+          "Families run on official versions. Confession, in this sense, is not a ritual of shame. It is a report: I did this; this was done to me; here is the next act. The mechanism is that an unspoken story keeps choosing for you. Example: a son who never says the gift was refused will keep offering worse gifts. A parent who never says I favored the other one will keep favoring. Speech does not repair the past. It returns the present to a person who can still move.",
+        master:
+          "Confession can be a performance too — a flood of feeling that asks to be absolved without a next act. Edge cases: some truths are not owed to the person who would use them as a weapon; tell them to a witness who can hold them. Some truths are owed to a child who is still being misnamed. Application: pick one story you have been decorating. Tell the undecorated version to one safe person, or to paper if no such person exists. End with a next act in the present tense. If you cannot name a next act, you have vented, not confessed. Venting is weather. Confession is a hinge.",
+        moveHint:
+          "Tell one undecorated story to a safe person or to paper, and end it with a next act in the present tense.",
+      },
+    ],
+  },
 ];
 
 export function seedBooks(): Book[] {

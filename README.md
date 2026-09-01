@@ -14,11 +14,12 @@ This is a local, original product. Teaching language for seed books is written f
 
 ## Seed catalog
 
-Three well-known nonfiction books, fully structured (10 concepts each, all three depths):
+Four well-known books, fully structured (10 concepts each, all three depths):
 
 1. **Atomic Habits** — James Clear
 2. **Meditations** — Marcus Aurelius
 3. **Influence** — Robert Cialdini
+4. **East of Eden** — John Steinbeck
 
 Any other title can be structured locally into 8-12 concepts with a deterministic generator. That map is a reading aid, not the book's table of contents. Fathom says so on the page.
 

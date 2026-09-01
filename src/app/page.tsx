@@ -64,7 +64,7 @@ export default function HomePage() {
               Seed catalog
             </h2>
             <p className="mt-2 max-w-measure text-mute">
-              Three well-known books, fully structured. Original teaching language — not excerpts.
+              Four well-known books, fully structured. Original teaching language — not excerpts.
             </p>
           </div>
           {hydrated ? (
@@ -73,7 +73,7 @@ export default function HomePage() {
             <p className="font-label text-faint pulse-soft">Loading</p>
           )}
         </div>
-        <ul className="mt-8 grid gap-6 lg:grid-cols-3">
+        <ul className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
           {CATALOG.map((book) => (
             <li key={book.id}>
               <Link
