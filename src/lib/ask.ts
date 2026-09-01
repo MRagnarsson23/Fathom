@@ -113,6 +113,21 @@ const TENSIONS: { a: string; b: string; note: string }[] = [
     b: "duty",
     note: "Reciprocity can counterfeit duty. A true role-based act does not require an unasked gift to get started.",
   },
+  {
+    a: "timshel",
+    b: "control",
+    note: "Thou mayest and the dichotomy of control agree that the next act is yours. They part when inheritance feels like weather: one names it not-up-to-you; the other says that even then you may still choose.",
+  },
+  {
+    a: "inheritance",
+    b: "identity",
+    note: "Identity-before-outcome is a vote for a self; inheritance is the story already cast. One builds; the other must be rewritten. Do not confuse a family tale with a finished person.",
+  },
+  {
+    a: "confession",
+    b: "assent",
+    note: "Assent is refusing to hastily sign a story; confession is signing the true one out loud. Both are delays that restore a mind — one private, one spoken.",
+  },
 ];
 
 function excerpt(text: string, n = 180) {
@@ -221,7 +236,7 @@ export function askVault(question: string, vault: VaultEntry[], extraBooks: Book
       question: q,
       summary: "Your vault is empty. Fathom will only answer from concepts you have actually marked mastered.",
       paragraphs: [
-        "Walk a book first. Atomic Habits, Meditations, or Influence will give you a set of load-bearing ideas. Master even two or three, then ask again. The answer will cite only what you have learned.",
+        "Walk a book first. Atomic Habits, Meditations, Influence, or East of Eden will give you a set of load-bearing ideas. Master even two or three, then ask again. The answer will cite only what you have learned.",
       ],
       citations: [],
       relations: [],
